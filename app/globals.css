@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: ui-sans-serif, system-ui, "Montserrat", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.participantBox {
+  @apply border-2 my-10 text-xl rounded-md border-black;
+}
+
+.infoTitle {
+  @apply whitespace-nowrap text-xs font-bold opacity-60 leading-6;
+}
+
+.infoValue {
+  @apply col-start-1 whitespace-nowrap text-2xl font-medium;
+}
